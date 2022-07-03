@@ -30,8 +30,8 @@
             </li>
             <!-- <li class="nav-item active">
                     <a class="nav-link" href="home.php">Products <span class="sr-only">(current)</span></a>
-            </li>
-          </ul> -->
+            </li> -->
+          </ul>
             
         </div>
       </nav>
