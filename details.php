@@ -49,40 +49,28 @@
         </div>
     </nav>
 
-    <div id="content">
-        <form method="POST" action="upload.php" enctype="multipart/form-data">
-            <div class="form-group">
-                <input class="form-control" type="file" name="uploadfile" value="" />
-            </div>
-            <div class="form-group">
-                <label for="details">Description</label>
-                <textarea class="form-control" type="text" id="details" name="details" rows="3"></textarea>
-            </div>
-            <div class="form-group">
-                <button class="btn btn-primary" type="submit" name="upload">UPLOAD</button>
-            </div>
-        </form>
-    </div>
+    <h2 class="p-3">Review</h2>
 
-    <div class="display-container">
+    <!-- <div class="display-container">
         <div id="display-image">
         <?php
-            include 'config.php';
+
+        $viewData = $_REQUEST["viewData"];
+        echo $viewData;
+            // include 'config.php';
     
-            $query = " SELECT * FROM `image` ";
-            $result = mysqli_query($conn, $query);
+            // $query = " SELECT * FROM `image` ";
+            // $result = mysqli_query($conn, $query);
      
-            while ($data = mysqli_fetch_assoc($result)) {
+            // while ($data = mysqli_fetch_assoc($result)) {
         ?>
-            <a class="viewDetails" href="details.php?viewData=<?php echo $data['filename']; ?>">
-                <img src="./image/<?php echo $data['filename']; ?>">
-            </a>
+            <img src="./image/<?php //echo $data['filename']; ?>">
      
         <?php
-            }
+            //}
         ?>
         </div>
-    </div>
+    </div> -->
 
     
     
@@ -101,15 +89,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
-    <!-- <script>
-        detailView = document.getElementsByClassName('viewDetails');
-      Array.from(detailView).forEach((element)=>{
-        element.addEventListener("click", (e)=>{
-            $viewDetails = <?php echo $data['id']; ?>
-        })
-      })
-    </script> -->
 </body>
 
 </html>

@@ -7,18 +7,20 @@
         $filename = $_FILES["uploadfile"]["name"];
         $tempname = $_FILES["uploadfile"]["tmp_name"];
         $folder = "./image/" . $filename;
+        $i_details = $_POST["details"];
      
-        // Get all the submitted data from the form
-        $sql = "INSERT INTO `image` (`filename`) VALUES ('$filename')";
+        
+        $sql = "INSERT INTO `image` (`filename`, `details`) VALUES ('$filename', '$i_details')";
      
-        // Execute query
+        
         mysqli_query($conn, $sql);
      
-        // Now let's move the uploaded image into the folder: image
+        
         if (move_uploaded_file($tempname, $folder)) {
-            echo "<h3>  Image uploaded successfully!</h3>";
+            echo "<script>location.href='Home.php';</script>";
         } else {
-            echo "<h3>  Failed to upload image!</h3>";
+            echo "<script>alert('Failed to upload image!')</script>";
+
         }
     }
 

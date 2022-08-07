@@ -9,16 +9,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animatry.css">
+    <link rel="stylesheet" href="animatry-2.css">
 
-    <title>CRUD</title>
+    <title>Freview</title>
   </head>
   <body>
     <div class="heading">
-      <h1>Welcome!</h1>
+        <h2 class="words">
+            <span>Review</span> 
+            <span>your</span>
+            <span>favourite</span>
+            <span>food</span>
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+        </h2>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.php">CRUD</a>
+        <a class="navbar-brand" href="index.php">Freview</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,20 +38,20 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
-            <!-- <li class="nav-item active">
-                    <a class="nav-link" href="home.php">Products <span class="sr-only">(current)</span></a>
-            </li> -->
+            <li class="nav-item active">
+                    <a class="nav-link" href="home.php">Reviews <span class="sr-only">(current)</span></a>
+            </li>
           </ul>
             
         </div>
       </nav>
 
       <div class="container mainBody">
-        <p>CRUD</p>
+        <p class="colorChange"><span>Freview</span></p>
       </div>
 
       <form action="login.php" class="startButton">
-        <button type=submit class="btn btn-primary">Get Started</button>
+        <button type=submit class="btn btn-light btn-lg">Get Started</button>
       </form>
 
       <hr>

@@ -9,10 +9,15 @@ form{
     width: 50%;
     margin: 20px auto;
 }
+
+.display-container {
+    margin-left: 8%;
+}
  
 #display-image{
     width: 100%;
     justify-content: center;
+    align-items: center;
     padding: 5px;
     margin: 15px;
 }
