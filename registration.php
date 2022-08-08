@@ -61,7 +61,7 @@
 
           <button type="Register" class="btn btn-primary btn-lg my-2">submit</button>
 
-          <div class="form-group row">
+          <div class="form-group row editLink">
             <p class="mx-2">Got an account?</p>
             <a href="login.php">Login here</a>
           </div>

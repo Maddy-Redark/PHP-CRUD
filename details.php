@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
 
     <title>Freview - Home</title>
 </head>
@@ -49,32 +50,55 @@
         </div>
     </nav>
 
+    <h5 class="backButton">
+        <a href="Home.php">< Go Back</a>
+    </h5>
+
     <h2 class="p-3">Review</h2>
 
-    <!-- <div class="display-container">
+    <div class="display-container">
         <div id="display-image">
         <?php
+            include 'config.php';
 
-        $viewData = $_REQUEST["viewData"];
-        echo $viewData;
-            // include 'config.php';
+            $viewData = $_REQUEST["viewData"];
     
-            // $query = " SELECT * FROM `image` ";
-            // $result = mysqli_query($conn, $query);
+            $query = " SELECT * FROM `image` WHERE `filename` LIKE '$viewData' ";
+            $result = mysqli_query($conn, $query);
      
-            // while ($data = mysqli_fetch_assoc($result)) {
+            while ($data = mysqli_fetch_assoc($result)) {
         ?>
-            <img src="./image/<?php //echo $data['filename']; ?>">
+            
+                <img src="./image/<?php echo $data['filename']; ?>">
+
+                <br>
+
+                <h3>Review</h3>
+
+                <p> <?php echo $data['details']; ?> </p>
      
         <?php
-            //}
+            }
         ?>
         </div>
-    </div> -->
+    </div>
 
     
     
+    <footer>
+        <div class="siteFooter">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
 
+            <div class="row">
+                Freview Copyright <i class="bi bi-c-circle"></i> 2022 Freview - All rights reserved
+            </div>
+        </div>
+    </footer>
     
     <hr>
 

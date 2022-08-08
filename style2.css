@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     margin: 20px auto;
+    padding: 20px;
     border: 1px solid #cbcbcb;
+    border-radius: 25px;
+    background-color: rgb(252, 253, 171);
 }
 form{
     width: 50%;
@@ -12,6 +15,8 @@ form{
 
 .display-container {
     margin-left: 8%;
+
+    margin-bottom: 10%;
 }
  
 #display-image{
@@ -26,3 +31,17 @@ img{
     width: 350px;
     height: 250px;
 }
+
+.backButton {
+    display: inline-block;
+    border: 3px solid darkslategray;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.backButton a{
+    text-decoration: none;
+    color: darkslategray;
+}
+

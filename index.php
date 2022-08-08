@@ -50,7 +50,7 @@
         <p class="colorChange"><span>Freview</span></p>
       </div>
 
-      <form action="login.php" class="startButton">
+      <form action="Home.php" class="startButton">
         <button type=submit class="btn btn-light btn-lg">Get Started</button>
       </form>
 

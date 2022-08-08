@@ -1,7 +1,6 @@
 <?php
     session_start();
     if(!(isset($_SESSION['email']))) {
-        echo "<script>alert('Access denied!!!')</script>";
         echo "<script>location.href = 'login.php'</script>";
     }
 ?>
@@ -50,6 +49,8 @@
     </nav>
 
     <div id="content">
+
+        <h3>Add Your Review Here</h3>
         <form method="POST" action="upload.php" enctype="multipart/form-data">
             <div class="form-group">
                 <input class="form-control" type="file" name="uploadfile" value="" />

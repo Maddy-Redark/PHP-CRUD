@@ -34,3 +34,10 @@ body {
     justify-items: flex-end;
     align-items: flex-end;
 }
+.editLink a {
+    text-decoration: none;
+    background-color: black;
+    padding: 4px;
+    border-radius: 15%;
+    color: azure;
+}
