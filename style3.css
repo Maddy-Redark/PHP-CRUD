@@ -1,3 +1,6 @@
+footer {
+    position: inherit;
+}
 .siteFooter {
     background-color: rgb(20, 20, 20);
     color: grey;
@@ -13,4 +16,8 @@
     color: grey;
     font-size: 28px;
     padding: 10px;
+}
+
+.bottomSpace {
+    margin-bottom: 12%;
 }
