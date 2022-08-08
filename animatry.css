@@ -5,7 +5,8 @@
 }
 
 .words span {
-font-size: 5rem;
+font-size: 4rem;
+padding-right: 5px;
 display: inline-block;
 animation: move 5s ease-in-out infinite;
 }

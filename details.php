@@ -53,7 +53,7 @@
     </nav>
 
     <h5 class="backButton">
-        <a href="Home.php">< Go Back</a>
+        <a href="Home.php"><i class="fa-solid fa-angle-left"></i> Go Back</a>
     </h5>
 
     <h2 class="p-3">Review</h2>
