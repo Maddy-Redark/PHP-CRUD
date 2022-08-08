@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
 
     <title>Freview - Home</title>
 </head>
@@ -86,7 +87,20 @@
     </div>
 
     
-    
+    <footer>
+        <div class="siteFooter">
+            <div class="footRow">
+                <a href="https://www.facebook.com/proloy.rakshit.1"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/RakshitProloy"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/proloy.rakshit.1"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abir-rakshit-b5822518b/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+            <div class="footRow">
+                <h6>Freview Copyright <i class="bi bi-c-circle"></i> 2022 Freview - All rights reserved</h6>
+            </div>
+        </div>
+    </footer>
 
     
     <hr>

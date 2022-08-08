@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
@@ -87,15 +89,15 @@
     
     <footer>
         <div class="siteFooter">
-            <div class="row">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+            <div class="footRow">
+                <a href="https://www.facebook.com/proloy.rakshit.1"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/RakshitProloy"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/proloy.rakshit.1"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abir-rakshit-b5822518b/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
-            <div class="row">
-                Freview Copyright <i class="bi bi-c-circle"></i> 2022 Freview - All rights reserved
+            <div class="footRow">
+                <h6>Freview Copyright <i class="bi bi-c-circle"></i> 2022 Freview - All rights reserved</h6>
             </div>
         </div>
     </footer>
