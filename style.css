@@ -41,3 +41,9 @@ body {
     border-radius: 15%;
     color: azure;
 }
+
+.right-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}

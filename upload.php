@@ -19,8 +19,8 @@
         if (move_uploaded_file($tempname, $folder)) {
             echo "<script>location.href='Home.php';</script>";
         } else {
-            echo "<script>alert('Failed to upload image!')</script>";
-
+            echo "<script>alert('Failed to upload image! Return to homepage -')</script>";
+            echo "<script>location.href='Home.php';</script>";
         }
     }
 

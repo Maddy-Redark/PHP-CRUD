@@ -69,7 +69,7 @@
     </div>
 
     <div class="display-container">
-        <div id="display-image">
+        <div id="display-image" class="imageView">
         <?php
             include 'config.php';
     

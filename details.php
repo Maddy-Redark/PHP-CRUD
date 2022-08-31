@@ -83,6 +83,21 @@
             }
         ?>
         </div>
+
+        <?php
+
+        while($data = mysqli_fetch_assoc($result)) {
+        
+
+        echo "<script>
+            <a href='deleteAction.php?viewData=".$data['filename']."><button class='btn btn-danger'>Delete</button></a>
+            <a href='updateAction.php?viewData=".$data['filename']."><button class='btn btn-secondary'>Update</button></a>
+        </script>";
+
+        }
+        ?>
+
+
     </div>
 
     
